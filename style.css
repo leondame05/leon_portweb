@@ -1,0 +1,333 @@
+body{
+    background:linear-gradient(#2dc4ea,#39c49a,#1fd187);
+    margin:0;
+    padding:0;
+    
+}
+nav{
+    display:flex ;
+    flex-direction: row;
+    background: linear-gradient(#0cc9d6,rgb(10, 224, 142));
+    align-items:center;
+    justify-content:space-between;
+    padding-left:30px;
+    padding-right:30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: double;
+    border-width:8px;
+    border-color:rgb(105, 31, 202)
+}
+.menu a{
+    background: linear-gradient(rgb(76, 46, 184),rgb(6, 177, 230));
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    border-radius:7px;
+    
+}
+.logo h1{
+    color:#ffffff;
+    background: linear-gradient(rgb(84, 166, 221),rgb(13, 133, 231));
+    border-radius:7px;
+    padding: 7px;
+   
+}
+.logo h1 span{
+    background-color:azure;
+    color:#0e8ce5;
+    border-radius:7px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction:row;
+    gap:20px;
+}
+.menu a:hover{
+    box-shadow: 0px 0px 40px #c6dcdd;
+    border-style: solid;
+    border-color:rgb(105, 31, 202);
+    color: #99e904;
+}
+.shape1{
+    background-color: rgb(255, 255, 255);
+    width: 8px;
+    height: 8px;
+    
+}
+.shape2{
+    background-color:  rgb(25, 210, 223);
+    width: 8px;
+    height: 8px;
+    
+}
+.shape1:hover{
+    background-color: rgb(38, 25, 223);
+    
+}
+.shape2:hover{
+    background-color:  rgb(38, 25, 223);
+    
+    
+
+}
+
+.header1{
+    background-color: #0cc9d6;
+    text-align: center;
+    margin-left:7rem;
+    margin-right:7rem;
+    border-radius: 20px;
+    border-style: double;
+    border-width:8px;
+    border-color:rgb(105, 31, 202);
+    
+}
+.container1{
+    
+    padding-left:15px;
+    padding-right:15px;
+    line-height:30px;
+    
+}
+.container1 a{
+    background:linear-gradient(45deg,#06c1eb,#07e186);
+    color:#545052;
+    padding:10px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-decoration:none;
+    text-shadow: 0px 3px 10px #ff0073;
+
+
+}
+.container1 a:hover{
+
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+
+}
+.header2{
+    font-family: Aclonica;
+    text-shadow: 0px 0px 15px rgb(142, 204, 18);
+
+    
+}
+.content{
+    background: linear-gradient(#3d9ac2,#255ab0);
+    border-radius:14px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #6106ca;
+    display: flex;
+    flex-direction: row;
+    
+    
+    align-items: center;
+    padding-left:25px;
+    padding-right:25px;
+}
+.img1 img{
+    background:linear-gradient(150deg,#3d9ac2,#4be4ef,#4dcb9b);
+    border-radius:70%;
+    width:300px;
+    height:300px;
+
+
+
+}
+.content_editing{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.shape1{
+    background: linear-gradient(#3d9ac2,#255ab0); 
+    border-style: double;
+    border-width: 8px;
+    border-color: #6106ca;
+    height:280px;
+    width:20px;
+    border-radius:10px;
+    opacity: 84%;
+
+}
+.shape2{
+    background: linear-gradient(#3d9ac2,#255ab0); 
+    border-style: double;
+    border-width: 8px;
+    border-color: #6106ca;
+    height:250px;
+    width:20px;
+    border-radius:10px;
+    opacity:80%;
+}
+.shape3{
+    background: linear-gradient(#3d9ac2,#255ab0); 
+    border-style: double;
+    border-width: 8px;
+    border-color: #6106ca;
+    height:230px;
+    width:20px;
+    border-radius:10px;
+    opacity:60%;
+
+}    
+.shape4{
+    background: linear-gradient(#3d9ac2,#255ab0); 
+    border-style: double;
+    border-width: 8px;
+    border-color: #6106ca;
+    height:210px;
+    width:20px;
+    border-radius:10px;
+    opacity:40%;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    gap:60px;
+}
+.medsos1,.medsos2,.medsos3{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #12c7d4;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-color:#255ab0;
+}
+.medsos1{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.medsos3 img{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.medsos2 img{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+
+@media (max-width: 768px) {
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .menu {
+    flex-direction: row;     /* tetap sejajar (row) */
+    flex-wrap: wrap;         /* biar kalau kepanjangan bisa turun baris */
+    gap: 10px;
+  }
+
+   .menu a {
+    display: inline-block;   /* background menyesuaikan isi */
+    padding: 8px 12px;
+    border-radius: 7px;
+    text-decoration: none;
+    
+  }
+
+  /* HEADER */
+  .header1 {
+    margin: 1rem;
+    padding: 10px;
+  }
+
+  /* CONTENT (tetap row, tapi dikecilkan) */
+  .content {
+    padding: 10px;
+    gap: 15px;
+    transform: scale(0.95);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .img1 img {
+    width: 180px;
+    height: 180px;
+    
+  }
+
+  /* SHAPES – disembunyikan di HP */
+  .shape1,
+  .shape2,
+  .shape3,
+  .shape4 {
+    display: none;
+  }
+
+  /* CONTENT2 di bawah konten utama */
+  .content2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  /* MEDSOS box full width */
+  .medsos3,
+  .medsos2{
+    width: 70%;
+  }
+  .container1{
+    text-align: center;
+  }
+  .medsos1{
+    width:70%;
+  }
+
+}
+
+
+/* ===== RESPONSIVE: TABLET ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header1 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .img1 img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .content2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .medsos1, .medsos2, .medsos3 {
+    width: 40%;
+  }
+}
+
+
